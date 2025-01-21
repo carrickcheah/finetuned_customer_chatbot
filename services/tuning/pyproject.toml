@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["carrick cheah <carrick113@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+llama-cpp-python = "^0.3.6"
+loguru = "^0.7.3"
+unsloth = "^2025.1.6"
+datasets = "^3.2.0"
+trl = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
